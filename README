@@ -1,0 +1,9 @@
+--Get_Data.py
+根据配置文件获取股票数据，并将获取的原始数据存储在raw_data中，处理后的存储在post_data中
+
+--config_stocklist.csv
+需要获取的股票数据列表
+
+版本信息：
+v0.1：
+初始版本
