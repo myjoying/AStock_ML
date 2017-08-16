@@ -1,6 +1,7 @@
 #myconfig
 post_data
 raw_data
+*.csv
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
