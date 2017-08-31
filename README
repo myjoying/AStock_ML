@@ -1,9 +1,23 @@
 --Get_Data.py
-根据配置文件获取股票数据，并将获取的原始数据存储在raw_data中，处理后的存储在post_data中
+获取沪深300成分股票，并存放在配置文件中；根据配置文件获取股票数据，并将获取的原始数据存储在raw_data中
+
+--HD_Template.py
+数据处理模板文件，处理原始数据后的存储在post_data中
+
+--HD_Index_Parser.py
+指标计算文件，根据raw_data中的原始数据计算
+
+--sk_classifier.py
+分类算法
+
+--Statistics.py
+计算买卖点，并根据买卖点数据计算策略的收益以及其他参数
+
+--trade_statistics.py
+统计数据类，根据买卖点数据，计算各种统计数据
 
 --config_stocklist.csv
 需要获取的股票数据列表
 
 版本信息：
-v0.1：
-初始版本
+v0.2

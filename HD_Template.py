@@ -21,7 +21,7 @@ format=lambda x: '%.4f' % x
 #计算指标
 for key in DataDict:
     data = DataDict[key]
-    data.sort_index(inplace=True)
+    data.sort_index(inplace=True)  #根据日期进行排序
     close = np.array(data['close'])
     high = np.array(data['high'])
     low = np.array(data['low'])
